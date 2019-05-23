@@ -35,7 +35,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
     }
 
     protected $fillable = [
-        'name', 'email', 'phone', 'password', 'introduction', 'avatar',
+        'name', 'email', 'phone', 'password', 'introduction', 'avatar', 'weixin_openid', 'weixin_unionid'
     ];
 
     protected $hidden = [
